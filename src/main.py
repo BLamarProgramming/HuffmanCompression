@@ -134,6 +134,7 @@ def write_decompressed_file(compressed_data: str, huffman_dict: dict, path: str)
     decompressed_data: str = decompress(compressed_data, huffman_dict)
     write_file(path, decompressed_data)
 
+
 def main():
     # read_path: path of file you want to compress
     read_path: str = ""
